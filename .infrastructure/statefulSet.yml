@@ -8,7 +8,7 @@ spec:
     matchLabels:
       app: mysql
   replicas: 3
-  serviceName: mysql
+  serviceName: mysql-less
   template:
     metadata:
       labels:
